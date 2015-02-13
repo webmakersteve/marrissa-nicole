@@ -1,0 +1,164 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-image: url('full-bg.png');
+	background-size: cover;
+	color: white;
+}
+
+.wrapper {
+	padding: 90px 0;
+	margin: 0 auto;
+	width: 1000px;
+
+}
+
+.main {
+	padding: 18px;
+	background-image: url('background.png');
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+}
+
+.border {
+	background-image: url('border.png');
+	background-repeat: repeat;
+}
+
+.border-x {
+	height: 4px;
+	width: 100%:;
+}
+
+.border-y {
+	height: 100%;
+	width: 4px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}
+
+.border-left {
+	left: 0;
+}
+
+.border-right {
+	right: 0;
+}
+
+.floatme {
+	position: relative;
+	padding: 30px;
+}
+
+.border-bottom {
+	background-position: center bottom;
+}
+
+.border-top {
+	background-position: center top;
+}
+
+.main .padded {
+}
+
+.content {
+	float: left;
+}
+
+.clearfix:after {
+	content: " ";
+	min-height: 1px;
+	clear: both;
+	display: block;
+}
+
+p {
+	font-size: 22px;
+	-moz-text-shadow:
+	   -1px -1px 0 #ccc,  
+	    1px -1px 0 #ccc,
+	    -1px 1px 0 #ccc,
+	     1px 1px 0 #ccc;
+	-webkit-text-shadow:
+		-1px -1px 0 #ccc,  
+		1px -1px 0 #ccc,
+		-1px 1px 0 #ccc,
+		1px 1px 0 #ccc;
+	text-shadow:
+	   -1px -1px 0 #ccc,  
+	    1px -1px 0 #ccc,
+	    -1px 1px 0 #ccc,
+	     1px 1px 0 #ccc;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+.form-control {
+	width: 334px;
+	padding: 20px 15px;
+	font-size: 20px;
+	line-height:30px;
+	color: white;
+	background-color: transparent;
+	border: 0px;
+	background-image: url('form-border.png');
+	background-size: contain;
+}
+
+.form-control:focus,
+.btn:focus {
+	outline: 0;
+}
+
+.btn {
+	text-indent: -333px;
+	height: 130px;
+	width: 130px;
+	background: none;
+	background-color: transparent;
+	border: 0px;
+	background-image: url('submit-button.png');
+	background-size: contain;
+	background-position: center center;
+	cursor: pointer;
+	opacity: 0.4;
+}
+
+.btn:hover {
+	opacity: 1;
+}
+
+.form-inline:after {
+	content: "";
+	display: block;
+	min-height: 1px;
+	clear: both;
+}
+
+.form-inline .form-group {
+	padding: 30px 9px;
+}
+
+.form-inline .form-group,
+.form-inline .btn {
+	float: left;
+}
+
+.form-control::-webkit-input-placeholder {
+   color: white;
+}
+
+.form-control:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+.form-control::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+.form-control:-ms-input-placeholder {  
+   color: white;  
+}
