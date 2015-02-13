@@ -126,6 +126,12 @@ h1, h2 {
 	background-position: center center;
 	cursor: pointer;
 	opacity: 0.4;
+	
+	-o-transition: opacity .2s;
+	-moz-transition: opacity .2s;
+	-webkit-transition: opacity .2s;
+	transition: opacity .2s;
+
 }
 
 .btn:hover {
