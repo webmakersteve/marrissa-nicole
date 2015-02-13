@@ -74,6 +74,7 @@ body {
 }
 
 p {
+	font-weight: 100;
 	font-size: 22px;
 	-moz-text-shadow:
 	   -1px -1px 0 #ccc,  
