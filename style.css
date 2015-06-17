@@ -127,7 +127,7 @@ h1, h2 {
 	width: 130px;
 	border: 0px;
 	background-image: url('yes-please.png');
-	background-size: contain;
+	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: center center;
 	cursor: pointer;
