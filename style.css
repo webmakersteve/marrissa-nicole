@@ -1,23 +1,19 @@
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', 'Open Sans', sans-serif;
 	background-image: url('full-bg.png');
 	background-size: cover;
 	color: white;
 }
 
 .wrapper {
-	padding: 90px 0;
-	margin: 0 auto;
-	width: 1000px;
+
+	margin-left: 42%;
+	width: 55%;
 
 }
 
 .main {
-	padding: 18px;
-	background-image: url('background.png');
-	-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+
 }
 
 .border {
@@ -48,7 +44,6 @@ body {
 
 .floatme {
 	position: relative;
-	padding: 30px;
 }
 
 .border-bottom {
@@ -73,39 +68,52 @@ body {
 	display: block;
 }
 
-p {
-	font-size: 22px;
-	-moz-text-shadow:
-	   -1px -1px 0 #ccc,  
-	    1px -1px 0 #ccc,
-	    -1px 1px 0 #ccc,
-	     1px 1px 0 #ccc;
-	-webkit-text-shadow:
-		-1px -1px 0 #ccc,  
-		1px -1px 0 #ccc,
-		-1px 1px 0 #ccc,
-		1px 1px 0 #ccc;
-	text-shadow:
-	   -1px -1px 0 #ccc,  
-	    1px -1px 0 #ccc,
-	    -1px 1px 0 #ccc,
-	     1px 1px 0 #ccc;
-}
-
-h1, h2 {
+p, h2, h1 {
+	font-size: 25px;
+	color: #0d293c;
+	line-height: 1.25em;
+	font-weight: 300;
 	text-align: center;
 }
 
+h1, h2 {
+	font-size: 32px;
+}
+
 .form-control {
-	width: 334px;
-	padding: 20px 15px;
+	width: 250px;
+	padding: 18px 15px 8px;
 	font-size: 20px;
 	line-height:30px;
-	color: white;
-	background-color: transparent;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 3px;
 	border: 0px;
-	background-image: url('form-border.png');
-	background-size: contain;
+	color:    #0d293c;
+	font-weight: 300;
+
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.55);
+	-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.55);
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.55);
+}
+
+.form-control::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #0d293c;
+    font-weight: 300;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #0d293c;
+   font-weight: 300;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #0d293c;
+   font-weight: 300;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #0d293c;
+   font-weight: 300;
 }
 
 .form-control:focus,
@@ -115,16 +123,14 @@ h1, h2 {
 
 .btn {
 	text-indent: -333px;
-	height: 130px;
+	text-indent: -5000px;
 	width: 130px;
-	background: none;
-	background-color: transparent;
 	border: 0px;
-	background-image: url('submit-button.png');
+	background-image: url('yes-please.png');
 	background-size: contain;
+	background-repeat: no-repeat;
 	background-position: center center;
 	cursor: pointer;
-	opacity: 0.4;
 }
 
 .btn:hover {
@@ -139,26 +145,10 @@ h1, h2 {
 }
 
 .form-inline .form-group {
-	padding: 30px 9px;
+	padding: 20px 9px 0;
 }
 
 .form-inline .form-group,
 .form-inline .btn {
-	float: left;
-}
-
-.form-control::-webkit-input-placeholder {
-   color: white;
-}
-
-.form-control:-moz-placeholder { /* Firefox 18- */
-   color: white;  
-}
-
-.form-control::-moz-placeholder {  /* Firefox 19+ */
-   color: white;  
-}
-
-.form-control:-ms-input-placeholder {  
-   color: white;  
+	float: right;
 }
