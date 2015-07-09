@@ -354,10 +354,10 @@ body {
   background-size: cover;
   color: white; }
   /* line 11, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
-  body.streamlining {
+  body.streamliningessentials {
     background-image: url("/images/streamlining-efficiency/hatface.png"); }
   /* line 15, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
-  body.efficiency {
+  body.efficiencyessentials {
     background-image: url("/images/streamlining-efficiency/chair.png"); }
 
 /* line 20, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
@@ -499,121 +499,124 @@ h1, h2 {
 .form-inline .form-group {
   padding: 20px 9px 0; }
 
-/* line 163, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
-.form-inline .form-group,
-.form-inline .btn {
-  float: right; }
+/* line 168, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.content {
+  padding-top: 20px; }
 
 /* line 172, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
-body.streamlining .content, body.efficiency .content {
-  padding-top: 20px;
+.form-inline {
+  text-align: center; }
+
+/* line 180, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body.streamliningessentials .content, body.efficiencyessentials .content {
   color: #0d293c;
   font-weight: 200; }
-  /* line 175, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
-  body.streamlining .content, body.streamlining .content p, body.streamlining .content li, body.efficiency .content, body.efficiency .content p, body.efficiency .content li {
-    font-size: 22px; }
-/* line 181, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
-body.streamlining ul, body.efficiency ul {
-  margin: .9em 0; }
   /* line 183, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
-  body.streamlining ul > li, body.efficiency ul > li {
+  body.streamliningessentials .content, body.streamliningessentials .content p, body.streamliningessentials .content li, body.efficiencyessentials .content, body.efficiencyessentials .content p, body.efficiencyessentials .content li {
+    font-size: 22px; }
+/* line 189, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body.streamliningessentials ul, body.efficiencyessentials ul {
+  margin: .9em 0; }
+  /* line 191, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  body.streamliningessentials ul > li, body.efficiencyessentials ul > li {
     margin-bottom: .5em; }
-/* line 188, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
-body.streamlining h2, body.streamlining h3, body.efficiency h2, body.efficiency h3 {
+/* line 196, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body.streamliningessentials h2, body.streamliningessentials h3, body.efficiencyessentials h2, body.efficiencyessentials h3 {
   color: #0d293c;
   text-align: center;
   font-weight: 200; }
-/* line 194, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
-body.streamlining h2, body.efficiency h2 {
-  font-size: 42px; }
-/* line 198, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
-body.streamlining h3, body.efficiency h3 {
-  font-size: 30px; }
 /* line 202, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
-body.streamlining h4, body.streamlining h5, body.efficiency h4, body.efficiency h5 {
+body.streamliningessentials h2, body.efficiencyessentials h2 {
+  font-size: 42px; }
+/* line 206, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body.streamliningessentials h3, body.efficiencyessentials h3 {
+  font-size: 30px; }
+/* line 210, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body.streamliningessentials h4, body.streamliningessentials h5, body.efficiencyessentials h4, body.efficiencyessentials h5 {
   font-size: 20px;
   font-weight: 400; }
-/* line 207, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
-body.streamlining big, body.efficiency big {
-  font-size: 20px; }
-/* line 211, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
-body.streamlining .form-inline .form-group, body.streamlining .form-inline .btn, body.efficiency .form-inline .form-group, body.efficiency .form-inline .btn {
-  float: left; }
 /* line 215, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
-body.streamlining .form-inline, body.efficiency .form-inline {
+body.streamliningessentials big, body.efficiencyessentials big {
+  font-size: 20px; }
+/* line 219, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body.streamliningessentials .form-inline .form-group, body.streamliningessentials .form-inline .btn, body.efficiencyessentials .form-inline .form-group, body.efficiencyessentials .form-inline .btn {
+  text-align: left; }
+/* line 223, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body.streamliningessentials .form-inline, body.efficiencyessentials .form-inline {
   padding-left: 10%;
   padding-top: 20px; }
-/* line 220, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
-body.streamlining .form-control, body.streamlining .btn, body.efficiency .form-control, body.efficiency .btn {
+/* line 228, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body.streamliningessentials .form-control, body.streamliningessentials .btn, body.efficiencyessentials .form-control, body.efficiencyessentials .btn {
   background-color: rgba(221, 169, 197, 0.6); }
 
-/* line 226, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+/* line 234, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
 p.margined {
   margin: 1em 0; }
 
-/* line 230, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
-.efficiency p.margined {
+/* line 238, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.efficiencyessentials p.margined {
   margin: 1.5em 0; }
 
-/* line 235, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
-body.efficiency .wrapper {
+/* line 243, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.form-inline .form-group, .form-inline .btn {
+  float: none; }
+/* line 247, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.form-inline .form-group {
+  display: inline-block; }
+
+/* line 253, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body.efficiencyessentials .wrapper {
   width: 80%;
   margin-left: 20%;
   margin-right: 0%; }
-  /* line 239, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
-  body.efficiency .wrapper .padded {
+  /* line 257, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  body.efficiencyessentials .wrapper .padded {
     padding-right: 290px; }
-  /* line 242, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
-  body.efficiency .wrapper .content {
+  /* line 260, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  body.efficiencyessentials .wrapper .content {
     float: none; }
-/* line 246, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
-body.efficiency .form-inline {
+/* line 265, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+body.efficiencyessentials .form-inline {
   text-align: center; }
-  /* line 248, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
-  body.efficiency .form-inline .form-group, body.efficiency .form-inline .btn {
-    float: none; }
-  /* line 252, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
-  body.efficiency .form-inline .form-group {
-    display: inline-block; }
 
-/* line 260, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+/* line 273, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
 * {
   margin: 0; }
 
-/* line 263, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+/* line 276, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
 html, body {
   height: 100%; }
 
-/* line 266, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+/* line 279, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
   margin-bottom: -150px; }
-  /* line 271, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  /* line 284, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
   .page-wrap:after {
     content: "";
     display: block;
     height: 150px; }
 
-/* line 283, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+/* line 296, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
 .site-footer {
   position: relative;
   background: #ffffff;
   padding: 15px 40px;
   height: 120px; }
-  /* line 289, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  /* line 302, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
   .site-footer .logo {
     float: left;
     margin-right: 30px; }
-  /* line 293, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  /* line 306, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
   .site-footer p {
     font-size: 22px;
     color: #0d293c;
     text-align: left; }
-  /* line 299, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  /* line 312, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
   .site-footer.bubble-me {
     padding-right: 300px; }
-  /* line 303, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  /* line 316, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
   .site-footer .bubble {
     position: absolute;
     right: 40px;
