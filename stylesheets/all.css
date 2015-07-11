@@ -591,19 +591,19 @@ html, body {
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -150px; }
+  margin-bottom: -180px; }
   /* line 284, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
   .page-wrap:after {
     content: "";
     display: block;
-    height: 150px; }
+    height: 180px; }
 
 /* line 296, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
 .site-footer {
   position: relative;
   background: #ffffff;
   padding: 15px 40px;
-  height: 120px; }
+  height: 150px; }
   /* line 302, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
   .site-footer .logo {
     float: left;
