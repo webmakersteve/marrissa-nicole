@@ -543,8 +543,8 @@ body.streamliningessentials .form-inline .form-group, body.streamliningessential
   text-align: left; }
 /* line 223, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
 body.streamliningessentials .form-inline, body.efficiencyessentials .form-inline {
-  padding-left: 10%;
-  padding-top: 20px; }
+  padding-top: 20px;
+  padding-bottom: 40px; }
 /* line 228, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
 body.streamliningessentials .form-control, body.streamliningessentials .btn, body.efficiencyessentials .form-control, body.efficiencyessentials .btn {
   background-color: rgba(221, 169, 197, 0.6); }
@@ -615,7 +615,7 @@ html, body {
     text-align: left; }
   /* line 312, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
   .site-footer.bubble-me {
-    padding-right: 300px; }
+    padding-right: 340px; }
   /* line 316, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
   .site-footer .bubble {
     position: absolute;
