@@ -621,3 +621,15 @@ html, body {
     position: absolute;
     right: 40px;
     bottom: 15px; }
+
+/* line 324, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+.message {
+  text-align: center;
+  padding: 10px 0 0;
+  font-weight: 200; }
+  /* line 329, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  .message.fail {
+    color: red; }
+  /* line 332, /Users/stephen/Desktop/marrissa-nicole/source/stylesheets/all.css.scss */
+  .message.success {
+    color: green; }
